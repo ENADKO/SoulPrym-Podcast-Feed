@@ -1,4 +1,5 @@
 // podcast-feed.js
+
 const fs = require('fs');
 const { parseISO, format } = require('date-fns');
 const fetch = require('node-fetch');
@@ -7,13 +8,19 @@ const xmlbuilder = require('xmlbuilder');
 // Config
 const GHOST_API_URL = 'https://enadko.com';
 const GHOST_CONTENT_KEY = process.env.GHOST_CONTENT_KEY;
+
+if (!GHOST_CONTENT_KEY) {
+  console.error('❌ ERROR: Missing GHOST_CONTENT_KEY environment variable.');
+  process.exit(1);
+}
+
 async function generateFeed() {
-const url = `${GHOST_API_URL}/ghost/api/content/posts/?key=${GHOST_CONTENT_KEY}&filter=tag:soulprymcast,visibility:public&limit=all&fields=title,slug,published_at,meta_description,custom_excerpt,feature_image,url`;
+  const apiUrl = `${GHOST_API_URL}/ghost/api/content/posts/?key=${GHOST_CONTENT_KEY}&filter=tag:soulprymcast,visibility:public&limit=all&fields=title,slug,published_at,meta_description,custom_excerpt,feature_image,url`;
+
   console.log('📡 Fetching data from Ghost API...');
-  const res = await fetch(url);
+  const res = await fetch(apiUrl);
   const data = await res.json();
 
-  // Debugging check
   if (!data || !Array.isArray(data.posts)) {
     console.error('❌ ERROR: Unexpected response structure:', data);
     return;
@@ -44,7 +51,7 @@ const url = `${GHOST_API_URL}/ghost/api/content/posts/?key=${GHOST_CONTENT_KEY}&
 
   posts.forEach(post => {
     if (!post.meta_description || !post.meta_description.includes('.mp3')) {
-      console.log(`⚠️ Skipping "${post.title}" — no .mp3 link in meta description.`);
+      console.warn(`⚠️ Skipping "${post.title}" — no .mp3 link in meta description.`);
       return;
     }
 
@@ -68,13 +75,15 @@ const url = `${GHOST_API_URL}/ghost/api/content/posts/?key=${GHOST_CONTENT_KEY}&
 
   const xml = feed.end({ pretty: true });
 
-  // Ensure public directory exists
-  if (!fs.existsSync('./public')) {
-    fs.mkdirSync('./public');
+  const outputDir = './public';
+  const outputFile = `${outputDir}/podcast.xml`;
+
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir);
   }
 
-  fs.writeFileSync('./public/podcast.xml', xml, 'utf8');
-  console.log('✅ Podcast RSS feed generated at ./public/podcast.xml');
+  fs.writeFileSync(outputFile, xml, 'utf8');
+  console.log(`✅ Podcast RSS feed generated at ${outputFile}`);
 }
 
 generateFeed().catch(err => {
