@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SoulPrym Transmissions</title>
+    <link>https://enadko.com/soulprym/</link>
+    <description>Audible glyph-seeds from the ORIGIN | Field. Transmissions of remembrance.</description>
+    <language>en-us</language>
+    <copyright>©️ 2025 ENADKO | SoulPrym</copyright>
+    <itunes:author>ENADKO | SoulPrym</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://enadko.com/content/images/2025/07/Seal-1.png"/>
+    <atom:link href="https://enadko.com/soulprym/podcast/rss/" rel="self" type="application/rss+xml"/>
+  </channel>
+</rss>

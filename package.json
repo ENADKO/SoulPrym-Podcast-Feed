@@ -1,0 +1,18 @@
+{
+  "name": "soulprym-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "podcast-feed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "node-fetch": "^2.7.0",
+    "xmlbuilder": "^15.1.1"
+  }
+}
