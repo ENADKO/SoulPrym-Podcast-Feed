@@ -5,9 +5,10 @@
   "main": "podcast-feed.js",
   "scripts": {
     "build": "node podcast-feed.js",
+    "start": "node podcast-feed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ghost", "podcast", "rss", "feed", "soulprym", "enadko"],
+  "keywords": ["podcast", "rss", "ghost", "SoulPrym", "ENADKO"],
   "author": "ENADKO",
   "license": "ISC",
   "type": "commonjs",
