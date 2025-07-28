@@ -1,11 +1,8 @@
-// podcast-feed.js
-
 const fs = require('fs');
 const { parseISO, format } = require('date-fns');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch'); // or switch to built-in fetch if using Node 18+
 const xmlbuilder = require('xmlbuilder');
 
-// Config
 const GHOST_API_URL = 'https://enadko.com';
 const GHOST_CONTENT_KEY = process.env.GHOST_CONTENT_KEY;
 
@@ -74,18 +71,17 @@ async function generateFeed() {
   });
 
   const xml = feed.end({ pretty: true });
-
   const outputDir = './public';
   const outputFile = `${outputDir}/podcast.xml`;
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir);
-  }
-
+  fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(outputFile, xml, 'utf8');
   console.log(`✅ Podcast RSS feed generated at ${outputFile}`);
 }
 
-generateFeed().catch(err => {
-  console.error('❌ Script failed with error:\n', err);
-});
+generateFeed()
+  .catch(err => {
+    console.error('⚠️ Feed generation failed. Skipping but continuing build.');
+    console.error(err);
+    // Do not process.exit(1); unless critical
+  });
