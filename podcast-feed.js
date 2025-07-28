@@ -6,8 +6,7 @@ const xmlbuilder = require('xmlbuilder');
 
 // Config
 const GHOST_API_URL = 'https://enadko.com';
-const GHOST_CONTENT_KEY = '8f47ab6e649976d252087a6302'; // ✅ Use your actual key
-
+const GHOST_CONTENT_KEY = process.env.GHOST_CONTENT_KEY;
 async function generateFeed() {
 const url = `${GHOST_API_URL}/ghost/api/content/posts/?key=${GHOST_CONTENT_KEY}&filter=tag:soulprymcast,visibility:public&limit=all&fields=title,slug,published_at,meta_description,custom_excerpt,feature_image,url`;
   console.log('📡 Fetching data from Ghost API...');
