@@ -2,6 +2,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "soul-prym-podcast-feed.vercel.app"
+        }
+      ],
       "destination": "https://enadko.com/$1",
       "permanent": true
     }
