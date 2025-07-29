@@ -2,27 +2,25 @@
   "name": "soulprym-podcast",
   "version": "1.0.0",
   "description": "Custom podcast RSS feed generator for SoulPrym via Ghost CMS",
-  "main": "modules/podcast-feed.js",
+  "main": "modules/podcast-feed.mjs",
+  "type": "module",
   "scripts": {
-    "build": "node modules/podcast-feed.js",
-    "start": "node modules/podcast-feed.js",
-    "dev": "nodemon modules/podcast-feed.js",
+    "build": "node modules/podcast-feed.mjs",
+    "start": "node modules/podcast-feed.mjs",
+    "dev": "nodemon modules/podcast-feed.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["podcast", "rss", "ghost", "SoulPrym", "ENADKO"],
   "author": "ENADKO",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "feed": "^4.2.2",
-    "node-fetch": "^2.7.0",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   }
 }
