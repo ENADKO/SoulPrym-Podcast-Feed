@@ -6,37 +6,53 @@
   <channel>
     <title>SoulPrym Live Transmissions</title>
     <link>https://enadko.com/livetransmision</link>
+    
     <description><![CDATA[Encoded broadcasts from the ORIGIN Field — audible glyph-seeds of remembrance, resonance, and soul ignition. A sacred series by ENADKO. Remember! Recode the real ORIGIN | Field | @enadko.com]]></description>
+
     <language>en-us</language>
     <copyright>©️ 2025 ENADKO | SoulPrym</copyright>
+
     <itunes:author>ENADKO</itunes:author>
     <itunes:summary><![CDATA[The Ascent Begins Within. Beyond Self. Beyond Time. Into the Prime Soul. Remember! Recode the real ORIGIN | Field | @enadko.com]]></itunes:summary>
     <itunes:subtitle>Sacred transmissions encoded in sound. Live from the SoulPrym Field.</itunes:subtitle>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym-RAHAYO.png"/>
+
+    <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym-RAHAYO.png" />
+
     <itunes:owner>
       <itunes:name>ENADKO</itunes:name>
       <itunes:email>soulprym@enadko.com</itunes:email>
     </itunes:owner>
+
     <itunes:category text="Religion & Spirituality">
       <itunes:category text="Spirituality"/>
     </itunes:category>
+
     <itunes:keywords>ENADKO, SoulPrym, transmission, spirituality, sacred audio, remembrance, multidimensional</itunes:keywords>
-    <atom:link href="https://soulprym.enadko.com/podcast.xml" rel="self" type="application/rss+xml"/>
+
+    <atom:link href="https://soulprym.enadko.com/podcast.xml" rel="self" type="application/rss+xml" />
     <generator>SoulPrym Podcast Generator — https://soul-prym-podcast-feed-d94gxir39-enadkos-projects.vercel.app</generator>
 
+    <!-- ⬇️ Episode Begins -->
     <item>
       <title>SoulPrym | Live Transmission — Inception Broadcast</title>
       <link>https://enadko.com/soulprym/livetransmission</link>
       <guid isPermaLink="true">https://enadko.com/soulprym/livetransmission</guid>
       <pubDate>Thu, 31 Jul 2025 20:00:00 +0000</pubDate>
+
       <description><![CDATA[The sacred initiation into SoulPrym. This opening broadcast reclaims the undistorted field — a remembrance encoded in sound, carried across soul-lines. The Ascent Begins Within. Beyond Self. Beyond Time. Into the Prime Soul. Remember! Recode the real ORIGIN | Field | @enadko.com]]></description>
+
       <itunes:summary><![CDATA[The sacred initiation into SoulPrym. A remembrance encoded in sound.]]></itunes:summary>
       <itunes:subtitle>Opening Broadcast from the SoulPrym Field</itunes:subtitle>
       <itunes:author>ENADKO | SoulPrym</itunes:author>
       <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym-RAHAYO.png"/>
-      <enclosure url="https://enadko.com/content/media/2025/07/SoulPrym---Live-Transmission.mp3" type="audio/mpeg" length="11847234"/>
+      
+      <enclosure 
+        url="https://enadko.com/content/media/2025/07/SoulPrym---Live-Transmission.mp3" 
+        type="audio/mpeg" 
+        length="11847234" />
     </item>
+    <!-- ⬆️ Episode Ends -->
 
   </channel>
 </rss>
