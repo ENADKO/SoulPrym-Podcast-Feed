@@ -24,8 +24,7 @@
       Remember! Recode the real ORIGIN | Field | @enadko.com
     ]]></itunes:summary>
     <itunes:subtitle>Sacred transmissions encoded in sound. Live from the SoulPrym Field.</itunes:subtitle>
-    <itunes:explicit>no</itunes:explicit>
-
+<itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym--Live-Transmission.png" />
 
     <itunes:owner>
