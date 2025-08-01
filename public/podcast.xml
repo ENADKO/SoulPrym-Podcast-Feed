@@ -2,16 +2,16 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:podcast="http://podcastindex.org/namespace/1.0">
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
   <channel>
     <title>SoulPrym | Live Transmissions</title>
-    <link>https://enadko.com/soulprym-livetransmission</link>
+    <link>https://enadko.com/soulprym/livetransmission</link>
 
     <description><![CDATA[
       Encoded broadcasts from the ORIGIN Field — audible glyph-seeds of remembrance, resonance, and soul ignition. A sacred series by ENADKO.
 
-      Remember! Recode The Real ORIGIN | Field | <a href="mailto:enadko@enadko.com">@enadko.com</a>
+      Remember! Recode the Real ORIGIN | Field | <a href="mailto:soulprym@enadko.com">@enadko.com</a>
     ]]></description>
 
     <language>en-us</language>
@@ -21,7 +21,7 @@
     <itunes:summary><![CDATA[
       The Ascent Begins Within. Beyond Self. Beyond Time. Into the Prime Soul.
 
-      Remember! Recode The Real ORIGIN | Field | @enadko.com
+      Remember! Recode the Real ORIGIN | Field | <a href="mailto:soulprym@enadko.com">@enadko.com</a>
     ]]></itunes:summary>
     <itunes:subtitle>Sacred transmissions encoded in sound. Live from the SoulPrym Field.</itunes:subtitle>
     <itunes:explicit>false</itunes:explicit>
@@ -44,7 +44,7 @@
 
     <!-- ⬇️ Episode Begins -->
     <item>
-      <title>SoulPrym | Live Transmission — Initiation Broadcast</title>
+      <title>SoulPrym | Inception Broadcast — Initiation</title>
       <link>https://enadko.com/soulprym/initiation</link>
       <guid isPermaLink="true">https://enadko.com/soulprym/initiation</guid>
       <pubDate>Thu, 31 Jul 2025 20:00:00 +0000</pubDate>
@@ -52,9 +52,7 @@
       <description><![CDATA[
         The sacred initiation into SoulPrym. This opening broadcast reclaims the undistorted field — a remembrance encoded in sound, carried across soul-lines.<br/><br/>
         <strong>The Ascent Begins Within.</strong><br/>Beyond Self. Beyond Time. Into the Prime Soul.<br/><br/>
-        <em>Remember! Recode The Real ORIGIN | Field | @enadko.com</em>
-        <br/><br/>
-        <a href="https://enadko.com/soulprym/initiation">Visit the Transmission Page →</a>
+        <em>Remember! Recode the Real ORIGIN | Field | <a href="mailto:soulprym@enadko.com">@enadko.com</a></em>
       ]]></description>
 
       <itunes:summary><![CDATA[
