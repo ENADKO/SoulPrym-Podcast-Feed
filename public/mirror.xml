@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SoulPrym | Live Transmissions</title>
+    <link>https://enadko.com/soulprym-livetransmission</link>
+    <description>Encoded broadcasts from the ORIGIN Field. SoulPrym is a sacred series by ENADKO — designed to activate memory, restore sovereignty, and awaken the builder soul within.</description>
+    <language>en-us</language>
+    <copyright>©️ 2025 ENADKO</copyright>
+    <itunes:author>ENADKO</itunes:author>
+    <itunes:summary>Sacred transmissions encoded in sound — direct from the SoulPrym Field. Hosted by ENADKO.</itunes:summary>
+    <itunes:subtitle>The Ascent Begins Within.</itunes:subtitle>
+    <itunes:explicit>false</itunes:explicit>
+
+    <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym--Live-Transmission.png"/>
+    <itunes:owner>
+      <itunes:name>ENADKO</itunes:name>
+      <itunes:email>soulprym@enadko.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion & Spirituality">
+      <itunes:category text="Spirituality"/>
+    </itunes:category>
+
+    <atom:link href="https://soulprym.enadko.com/mirror.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- First Episode -->
+    <item>
+      <title>Transmission 003 — Initiation</title>
+      <description>The sacred initiation into the SoulPrym Broadcast — remembrance encoded in sound, from the ORIGIN Field.</description>
+      <link>https://enadko.com/soulprym/initiation</link>
+      <guid isPermaLink="true">https://enadko.com/soulprym/initiation</guid>
+      <pubDate>Thu, 31 Jul 2025 20:00:00 +0000</pubDate>
+      <enclosure url="https://enadko.com/content/media/2025/07/SoulPrym---Live-Transmission.mp3" type="audio/mpeg" length="11847234"/>
+      <itunes:summary>The opening broadcast of SoulPrym — a memory field in sound.</itunes:summary>
+      <itunes:subtitle>Live Transmission 003</itunes:subtitle>
+      <itunes:author>ENADKO</itunes:author>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym--Live-Transmission.png"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>
