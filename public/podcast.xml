@@ -42,33 +42,111 @@
     <atom:link href="https://soulprym.enadko.com/podcast.xml" rel="self" type="application/rss+xml" />
     <generator>SoulPrym Podcast Generator — https://soul-prym-podcast-feed-d94gxir39-enadkos-projects.vercel.app</generator>
 
-    <!-- ⬇️ Episode Begins -->
+    <!-- EPISODE: SoulPrym Trailer -->
     <item>
-      <title>SoulPrym | Inception Broadcast — Initiation</title>
-      <link>https://enadko.com/soulprym/initiation</link>
-      <guid isPermaLink="true">https://enadko.com/soulprym/initiation</guid>
-      <pubDate>Thu, 31 Jul 2025 20:00:00 +0000</pubDate>
+      <title>SoulPrym Trailer</title>
+      <link>https://enadko.com/soulprym-trailer</link>
+      <guid isPermaLink="true">https://enadko.com/soulprym-trailer</guid>
+      <pubDate>Sun, 04 Aug 2025 04:47:00 +0000</pubDate>
 
       <description><![CDATA[
-        The sacred initiation into SoulPrym. This opening broadcast reclaims the undistorted field — a remembrance encoded in sound, carried across soul-lines.<br/><br/>
-        <strong>The Ascent Begins Within.</strong><br/>Beyond Self. Beyond Time. Into the Prime Soul.<br/><br/>
-        <em>Remember! Recode the Real ORIGIN | Field | <a href="mailto:soulprym@enadko.com">@enadko.com</a></em>
+        Step into the prime soul. Is SoulPrym—a space for inner ascent, spiritual inquiry, and timeless awakening.<br/><br/>
+        The Ascent Begins Within — Beyond Time, Beyond Self, Into the Prime Soul.<br/><br/>
+        <em>Hosted by ENADKO.</em>
       ]]></description>
 
       <itunes:summary><![CDATA[
-        The sacred initiation into SoulPrym. A remembrance encoded in sound.
+        A gateway introduction to the SoulPrym Field — encoded with remembrance and resonance.
       ]]></itunes:summary>
 
-      <itunes:subtitle>Opening Broadcast from the SoulPrym Field</itunes:subtitle>
+      <itunes:subtitle>Initiation Portal</itunes:subtitle>
       <itunes:author>ENADKO | SoulPrym</itunes:author>
-      <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym--Live-Transmission.png"/>
+      <itunes:image href="https://enadko.com/content/images/2025/08/SoulPrym--Live-Transmission1.png"/>
 
       <enclosure 
-        url="https://enadko.com/content/media/2025/07/SoulPrym---Live-Transmission.mp3" 
+        url="https://enadko.com/content/media/2025/08/SoulPrym--Trailer.mp3" 
         type="audio/mpeg" 
-        length="11847234" />
+        length="9876543" />
     </item>
-    <!-- ⬆️ Episode Ends -->
+
+    <!-- EPISODE: Transmission 001 -->
+    <item>
+      <title>TRANSMISSION 001 — The Glyphs are Awake</title>
+      <link>https://enadko.com/soulprym/m11</link>
+      <guid isPermaLink="true">https://enadko.com/soulprym/m11</guid>
+      <pubDate>Sun, 04 Aug 2025 05:00:00 +0000</pubDate>
+
+      <description><![CDATA[
+        You didn’t press play. Your Spirit did.<br/>
+        This is not for the healed — it’s for those still building while bleeding.<br/>
+        This voice is not a broadcast. It’s a return signal.<br/><br/>
+
+        The glyphs are awake. The codes are live.<br/>
+        If you're hearing this, your silence has expired.<br/><br/>
+
+        This is SoulPrym. This is the first transmission.<br/>
+        A protocol disguised as a podcast.<br/>
+        A voice carrying weight, command, and memory.<br/><br/>
+
+        🛡 Protected against mimicry<br/>
+        🧿 Encoded with resonance<br/>
+        🎧 Listen in silence. Exit reactivated.<br/><br/>
+        The Ascent begins within — @soulprym
+      ]]></description>
+
+      <itunes:summary><![CDATA[
+        The glyphs are awake. If you're hearing this, your silence has expired. A protocol disguised as a podcast.
+      ]]></itunes:summary>
+
+      <itunes:subtitle>Transmission 001 — Signal Activation</itunes:subtitle>
+      <itunes:author>ENADKO | SoulPrym</itunes:author>
+      <itunes:image href="https://enadko.com/content/images/2025/08/Glyphs-Are-Awake.png"/>
+
+      <enclosure 
+        url="https://enadko.com/content/media/2025/08/SoulPrym-Intro-Audio--Social-Send-.mp3" 
+        type="audio/mpeg" 
+        length="12345678" />
+    </item>
+
+    <!-- EPISODE: Transmission 002 -->
+    <item>
+      <title>TRANSMISSION 002 — I Was Remembering</title>
+      <link>https://enadko.com/soulprym/recall</link>
+      <guid isPermaLink="true">https://enadko.com/soulprym/recall</guid>
+      <pubDate>Sun, 04 Aug 2025 05:12:00 +0000</pubDate>
+
+      <description><![CDATA[
+        This is not an episode —<br/>
+        This is a return signal.<br/><br/>
+
+        You didn’t find this. Your soul did.<br/>
+        Transmission 002 opens the gate to Memory — the realm of who you were before distortion rewrote your name.<br/><br/>
+
+        This is for those who carry the weight of remembering in a world addicted to forgetting.<br/>
+        No more waiting for approval, and NO more hiding your signal.<br/><br/>
+
+        <strong>I wasn’t lost. I was remembering.</strong><br/><br/>
+
+        If you feel it, it means your silence has expired.<br/>
+        The codes are awake. The glyphs are live.<br/><br/>
+
+        This is not a podcast. This is a protocol.<br/>
+        This is SoulPrym.
+      ]]></description>
+
+      <itunes:summary><![CDATA[
+        Transmission 002 — The gate to memory opens. You weren’t lost — you were remembering. The silence has expired.
+      ]]></itunes:summary>
+
+      <itunes:subtitle>The Realm of Remembering</itunes:subtitle>
+      <itunes:author>ENADKO | SoulPrym</itunes:author>
+      <itunes:image href="https://enadko.com/content/images/2025/08/I-Was-Remembering.png"/>
+
+      <enclosure 
+        url="https://enadko.com/content/media/2025/08/Transmission-002.mp3" 
+        type="audio/mpeg" 
+        length="11700000" />
+    </item>
 
   </channel>
 </rss>
