@@ -33,7 +33,7 @@
       <itunes:email>soulprym@enadko.com</itunes:email>
     </itunes:owner>
 
-    <itunes:category text="Religion & Spirituality">
+<itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Spirituality"/>
     </itunes:category>
 
