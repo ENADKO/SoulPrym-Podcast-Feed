@@ -1,4 +1,15 @@
 {
+  "headers": [
+    {
+      "source": "/podcast.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/(.*)",
@@ -9,7 +20,8 @@
         }
       ],
       "destination": "https://soulprym.enadko.com/$1",
-      "permanent": true
+      "permanent": true,
+      "statusCode": 308
     }
   ]
 }
