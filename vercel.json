@@ -9,19 +9,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "soul-prym-podcast-feed.vercel.app"
-        }
-      ],
-      "destination": "https://soulprym.enadko.com/$1",
-      "permanent": true,
-      "statusCode": 308
-    }
   ]
 }
