@@ -15,7 +15,7 @@
     ]]></description>
 
     <language>en-us</language>
-<copyright>&#169; 2025 ENADKO | SoulPrym</copyright>
+    <copyright>©️ 2025 ENADKO | SoulPrym</copyright>
 
     <itunes:author>ENADKO</itunes:author>
     <itunes:summary><![CDATA[
@@ -26,21 +26,22 @@
     <itunes:subtitle>Sacred transmissions encoded in sound. Live from the SoulPrym Field.</itunes:subtitle>
     <itunes:explicit>false</itunes:explicit>
 
-    <itunes:image href="https://enadko.com/content/images/2025/07/SoulPrym--Live-Transmission.png" />
+    <!-- 🔄 Updated Trailer Image -->
+    <itunes:image href="https://enadko.com/content/images/2025/08/SoulPrym--3-.png" />
 
     <itunes:owner>
       <itunes:name>ENADKO</itunes:name>
       <itunes:email>soulprym@enadko.com</itunes:email>
     </itunes:owner>
 
-<itunes:category text="Religion &amp; Spirituality">
+    <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Spirituality"/>
     </itunes:category>
 
     <itunes:keywords>ENADKO, SoulPrym, transmission, spirituality, sacred audio, remembrance, multidimensional</itunes:keywords>
 
     <atom:link href="https://soulprym.enadko.com/podcast.xml" rel="self" type="application/rss+xml" />
-    <generator>SoulPrym Podcast Generator — https://soul-prym-podcast-feed-d94gxir39-enadkos-projects.vercel.app</generator>
+    <generator>SoulPrym Podcast Generator — https://soul-prym-podcast-feed.vercel.app</generator>
 
     <!-- EPISODE: SoulPrym Trailer -->
     <item>
@@ -50,7 +51,7 @@
       <pubDate>Sun, 04 Aug 2025 04:47:00 +0000</pubDate>
 
       <description><![CDATA[
-        Step into the prime soul. Is SoulPrym—a space for inner ascent, spiritual inquiry, and timeless awakening.
+        Step into the prime soul. Is SoulPrym — a space for inner ascent, spiritual inquiry, and timeless awakening.
 
         The Ascent Begins Within — Beyond Time, Beyond Self, Into the Prime Soul.
 
@@ -63,7 +64,7 @@
 
       <itunes:subtitle>Initiation Portal</itunes:subtitle>
       <itunes:author>ENADKO | SoulPrym</itunes:author>
-      <itunes:image href="https://enadko.com/content/images/2025/08/SoulPrym--Live-Transmission1.png"/>
+      <itunes:image href="https://enadko.com/content/images/2025/08/SoulPrym--3-.png"/>
 
       <enclosure 
         url="https://enadko.com/content/media/2025/08/SoulPrym--Trailer.mp3" 
