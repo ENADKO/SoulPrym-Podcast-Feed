@@ -5,7 +5,7 @@
   "main": "modules/podcast-feed.mjs",
   "type": "module",
   "scripts": {
-    "build": "node modules/podcast-feed.mjs",
+    "build": "echo Feed is static - public/podcast.xml is edited by hand, no build step",
     "start": "node modules/podcast-feed.mjs",
     "dev": "nodemon modules/podcast-feed.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
